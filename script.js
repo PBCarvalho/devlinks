@@ -6,10 +6,7 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute(
-      "alt",
-      "Foto de Peterson Carvalho sorrindo, de camisa azul, no parque."
-    )
+    img.setAttribute("alt", "Foto de Peterson Carvalho, cartoon animado.")
   } else {
     img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute(
